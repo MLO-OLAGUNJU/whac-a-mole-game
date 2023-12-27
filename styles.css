@@ -4,3 +4,39 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
+body {
+  color: #fff;
+  background: linear-gradient(to left, cornflowerblue, darkblue);
+}
+.grid {
+  width: 450px;
+  height: 450px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 400px;
+}
+
+.square {
+  height: 150px;
+  width: 150px;
+  border: 1px solid #fff;
+}
+
+.mole {
+  background: url("mole.jpg");
+  background-size: cover;
+}
+
+.flexed {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  text-align: center;
+}
+.carrier {
+  padding-top: 5px;
+  margin-bottom: 5px;
+  background-color: #000000;
+}
